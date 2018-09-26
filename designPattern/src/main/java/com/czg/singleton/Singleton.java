@@ -6,18 +6,18 @@ package com.czg.singleton;
  * @description
  **/
 public class Singleton {
-    private Singleton(){
 
-    }
-    // 注意关键是volatile的声明
-
+    /**
+     * 注意关键是volatile的声明
+     */
     private static volatile Singleton instance = null;
-
+    private Singleton(){
+    }
     public static Singleton getInstance() {
         if(instance == null){
             synchronized(Singleton.class){
                 if (instance == null) {
-                    return new Singleton();
+                    instance = new Singleton();
                 }
             }
         }

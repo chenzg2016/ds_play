@@ -5,18 +5,18 @@ package com.czg.singleton;
  * @date 2018.08.23 15:04
  * @description
  **/
-public class TestSingleton2 extends Thread {
+public class TestSingleton3 extends Thread {
 
     @Override
     public void run() {
-        System.out.println(Singleton.getInstance().hashCode());
+        System.out.println(MySingleton.getInstance().hashCode());
     }
 
     public static void main(String[] args) {
 
-        TestSingleton2[] mts = new TestSingleton2[10];
+        TestSingleton3[] mts = new TestSingleton3[10];
         for (int i = 0; i < mts.length; i++) {
-            mts[i] = new TestSingleton2();
+            mts[i] = new TestSingleton3();
         }
 
         for (int j = 0; j < mts.length; j++) {
