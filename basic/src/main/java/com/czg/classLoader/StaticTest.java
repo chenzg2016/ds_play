@@ -17,13 +17,10 @@ public class StaticTest {
         System.out.println("1");
     }
 
-    {
-        System.out.println("2");
-    }
 
     StaticTest() {
         System.out.println("3");
-        System.out.println("a=" + a + ",b=" + b);
+        System.out.println("a=" + a + ",b=" + b + ",c=" + c);
     }
 
     public static void staticFunction() {
@@ -32,4 +29,10 @@ public class StaticTest {
 
     int a = 110;
     static int b = 112;
+    final int c = 120;
+
+    {
+        System.out.println("2");
+    }
+
 }
