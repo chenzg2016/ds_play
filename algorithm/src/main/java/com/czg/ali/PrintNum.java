@@ -11,9 +11,14 @@ import java.util.concurrent.TimeUnit;
  * @author chenzg
  * @date 2018.09.22 19:36
  * @description
+ * 回绕栅栏
+ * new CyclicBarrier(int parties, Runnable barrierAction)
+ * parties 是用来表示 有多少个线程要达到栅栏状态
+ * 参数barrierAction为当这些线程都达到barrier状态时会执行的内容
+ *
  **/
 public class PrintNum {
-    static final int FINAL_NUM = 75;
+    static volatile  int FINAL_NUM = 91;
     private List<PrintTasks> tasks = new ArrayList<PrintTasks>();
     private ExecutorService exec = Executors.newCachedThreadPool();
     private CyclicBarrier barrier;
@@ -27,7 +32,7 @@ public class PrintNum {
                         exec.shutdownNow();
                         return;
                     } else {
-                        task.printNum();
+                        task.printNum(FINAL_NUM);
                     }
                 }
             }
@@ -40,7 +45,9 @@ public class PrintNum {
         for(int i = 0; i < nTasks; i++) {
             PrintTasks task = new PrintTasks(barrier);
             tasks.add(task);
+
             exec.execute(task);
+//            new Thread(task).start();
         }
     }
     public static void main(String[] args) {

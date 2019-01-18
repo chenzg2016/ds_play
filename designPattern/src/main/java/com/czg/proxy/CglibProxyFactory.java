@@ -1,8 +1,9 @@
 package com.czg.proxy;
 
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
 import org.omg.PortableInterceptor.Interceptor;
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.MethodInterceptor;
+
 import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
@@ -12,7 +13,7 @@ import java.lang.reflect.Method;
  * @date 2018.08.24 20:27
  * @description
  **/
-public class CglibProxyFactory implements MethodInterceptor {
+public class CglibProxyFactory implements org.springframework.cglib.proxy.MethodInterceptor {
 
     private Object target;
 
@@ -21,7 +22,7 @@ public class CglibProxyFactory implements MethodInterceptor {
     }
 
     public Object getProxyInstance(){
-        Enhancer enhancer = new Enhancer();
+        org.springframework.cglib.proxy.Enhancer enhancer = new org.springframework.cglib.proxy.Enhancer();
 
         enhancer.setSuperclass(target.getClass());
         enhancer.setCallback(this);
