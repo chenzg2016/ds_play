@@ -4,6 +4,7 @@ import javax.xml.ws.spi.Invoker;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.Date;
 
 /**
  * @author chenzg
@@ -18,6 +19,8 @@ public class MethodReflect {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        test2();
     }
 
     private static void getVariableAndMethod() throws Exception {
@@ -83,5 +86,18 @@ public class MethodReflect {
 
 
 
+    }
+
+    public static void test2(){
+        try {
+            Class<?> c = Class.forName("java.util.Date");
+            //反射类的方法：
+            Method m = c.getMethod("getTime", new Class<?>[]{});
+            long l =(Long)m.invoke(c.newInstance(), new Object[]{});
+            System.out.println(l);
+            //反射一个类的实例：
+            Date d = (Date)c.newInstance();
+            System.out.println(d.getTime());
+        } catch (Exception e) {}
     }
 }

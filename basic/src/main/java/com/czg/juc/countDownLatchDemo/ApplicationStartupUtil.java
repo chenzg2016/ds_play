@@ -29,14 +29,14 @@ public class ApplicationStartupUtil {
     //new BlockingQueue<Runnable>()
     public static boolean doCheck() throws Exception {
 
-            ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(checkers.size(), checkers.size(), 60L,
-                    TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>(), new MyThread(), new ThreadPoolExecutor.AbortPolicy());
         checkers = new ArrayList<>();
         countDownLatch = new CountDownLatch(3);
         checkers.add(new NetWorkHealthChecker(countDownLatch));
         checkers.add(new CacheHealthChecker(countDownLatch));
         checkers.add(new DataBaseHealthChecker(countDownLatch));
         ExecutorService threadPool = Executors.newFixedThreadPool(checkers.size());
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(checkers.size(), checkers.size(), 60L,
+                TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>(), new MyThread(), new ThreadPoolExecutor.AbortPolicy());
         for (final BaseHealthChecker checker : checkers) {
             threadPool.execute(checker);
         }
@@ -51,7 +51,9 @@ public class ApplicationStartupUtil {
                 return false;
             }
         }
-
+        if (countDownLatch.getCount() == 0){
+            threadPool.shutdownNow();
+        }
         return true;
     }
 

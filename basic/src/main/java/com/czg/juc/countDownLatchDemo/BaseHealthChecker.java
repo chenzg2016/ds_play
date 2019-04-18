@@ -42,8 +42,8 @@ public abstract class BaseHealthChecker implements Runnable {
             if (downLatch != null) {
                 downLatch.countDown();
             }
-        }
 
+        }
 
     }
 

@@ -1,34 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="basic:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9d0c6d7e-f94d-4692-b7ee-d2ec6a2f63eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/ConcurrentUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/ApplicationStartupUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/BaseHealthChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/CacheHealthChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/DataBaseHealthChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/NetWorkHealthChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/chenzg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ConTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/CountWordsOfArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/FileWordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/Has.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/MappedBiggerFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThreadAbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/bigdata/BigDataSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/classic/BitMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/Drive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/ParkApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/ParkPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/ParkType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/Drive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/HelloWorldServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyFactoryBeanMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyTestFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture/src/test/com.czg.test/MyBeanFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/concurrent/Cpp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/concurrent/compare/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/container/LinkedHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/io/Aio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/SecondServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ThirdServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/io/nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/javaagent/JagentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/reference/SoftReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/string/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/threadlocal/Tpp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/HandlePromotionFailure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/MinorGc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/ReferenceCountingGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/TenuringThreshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/czg/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/czg/api/GreetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/src/main/java/com/czg/api/impl/GreetServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc/src/main/resource/dubbo-demo-provider.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/architecture/architecture.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/designPattern.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/CglibProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/CglibProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/OneTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/OneTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/architecture/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/java/com/czg/ThreadPool/ThreadPoolDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/ThreadPool/ThreadPoolDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/ApplicationStartupUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/ApplicationStartupUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/BaseHealthChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/BaseHealthChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/java/com/czg/reflect/MethodReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/java/com/czg/reflect/MethodReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/czg/App.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/rpc/target/" />
     <ignored path="$PROJECT_DIR$/basic/target/" />
@@ -49,92 +92,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CacheHealthChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/CacheHealthChecker.java">
+      <file leaf-file-name="TwoThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="654">
+              <caret line="166" column="44" selection-start-line="166" selection-start-column="44" selection-end-line="166" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationStartupUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/ApplicationStartupUtil.java">
+      <file leaf-file-name="ThirdServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ThirdServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="171">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NIOServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/nio/NIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseHealthChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/BaseHealthChecker.java">
+      <file leaf-file-name="Cache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/jobinterview/Cache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <file leaf-file-name="ReceiptUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/jobinterview/ReceiptUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="501" selection-start-line="501" selection-end-line="501" />
+            <state relative-caret-position="364">
+              <caret line="90" column="65" lean-forward="true" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcurrentUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/ConcurrentUtils.java">
+      <file leaf-file-name="AePlayWave.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/game/AePlayWave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="171">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CyclicBarrier.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <file leaf-file-name="SnakeDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/game/SnakeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="847">
-              <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/Main.java">
+      <file leaf-file-name="BigDataSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/bigdata/BigDataSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="82" lean-forward="true" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBaseHealthChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/DataBaseHealthChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetWorkHealthChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/NetWorkHealthChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="24" selection-start-line="24" selection-end-line="25" />
+            <state relative-caret-position="171">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -145,6 +191,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -152,7 +199,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>CountDownLatch</find>
+      <find>fbHelloWorldService</find>
+      <find>condition</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,20 +237,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintNum.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintTasks.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/ConcurrentUtils.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/NetWorkHealthChecker.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/DataBaseHealthChecker.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/CacheHealthChecker.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/IUserDao.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/UserDao.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/CglibProxyFactory.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/CglibProxyApp.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/BaseHealthChecker.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/Main.java" />
-        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/ApplicationStartupUtil.java" />
+        <option value="$PROJECT_DIR$/architecture/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/classic/Bitmap.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/classic/BitMap.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/ReferenceCountingGC.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/MinorGc.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/TenuringThreshold.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/HandlePromtionFailure.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/understandjvm/ch03/HandlePromotionFailure.java" />
+        <option value="$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyTestFactoryBean.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/czg/api/GreetService.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/czg/api/impl/GreetServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/resource/dubbo-demo-provider.xml" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/czg/App.java" />
+        <option value="$PROJECT_DIR$/rpc/src/main/java/com/czg/Provider.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/reflect/MethodReflect.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/string/StringTest.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstClient.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstServer.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/SecondServer.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ThirdServer.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/io/nio/NIOServer.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/concurrent/compare/Test.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/ThreadPool/ThreadPoolDemo1.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/bigdata/BigDataSort.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/javaagent/JagentApp.java" />
+        <option value="$PROJECT_DIR$/basic/src/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/container/LinkedHashMapTest.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/czg/reference/SoftReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThreadAbc.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/LockConditionModel1.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/CountWords.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/Has.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/MappedBiggerFileReader.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/CountWordsOfArticle.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/FileWordCount.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/park.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/drive.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/parkApp.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/parkType.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/parkPlace.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkTypeEnum.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/Drive.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace1.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkApp.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/OneTask.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ConTest2.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThread.java" />
       </list>
     </option>
   </component>
@@ -208,12 +297,36 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="move" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="move" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="943" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -223,6 +336,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -285,6 +399,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
               <item name="block" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +424,36 @@
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="fish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="jobinterview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,7 +494,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="czg" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
@@ -350,31 +504,103 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="czg" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="countDownLatchDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="bio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_play" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_play" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="pv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="pvmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="reference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_play" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_play" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -382,7 +608,7 @@
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_play" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -391,12 +617,61 @@
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_play" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="czg" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="move" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds_play" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="move" type="b2602c69:ProjectViewProjectNode" />
@@ -406,25 +681,34 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CFML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.czg.juc.countDownLatchDemo" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.czg.proxy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rpc/src/main/resource" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.czg.park1" />
+      <recent name="com.czg.ali" />
+      <recent name="com.czg.juc.countDownLatchDemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/architecture/src/main/resources" />
+      <recent name="$PROJECT_DIR$/architecture/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,31 +723,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.czg.juc.CountDownLatchTest" />
-      <module name="basic" />
+  <component name="RunManager" selected="Application.SnakeDemo">
+    <configuration name="ReceiptUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czg.jobinterview.ReceiptUtil" />
+      <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.czg.juc.*" />
+          <option name="PATTERN" value="com.czg.jobinterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.czg.juc.countDownLatchDemo.Main" />
-      <module name="basic" />
+    <configuration name="SnakeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czg.game.SnakeDemo" />
+      <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.czg.juc.countDownLatchDemo.*" />
+          <option name="PATTERN" value="com.czg.game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PrintNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.czg.ali.PrintNum" />
+    <configuration name="TestCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czg.ali.TestCondition" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -484,11 +768,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="testMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.czg.ali.testMain" />
+    <configuration name="TwoThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czg.ali.TwoThread" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -497,6 +778,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -537,19 +821,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.testMain" />
+      <item itemvalue="Application.TwoThread" />
       <item itemvalue="Application.ThreeThread" />
-      <item itemvalue="Application.PrintNum" />
-      <item itemvalue="Application.CountDownLatchTest" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestCondition" />
+      <item itemvalue="Application.ReceiptUtil" />
+      <item itemvalue="Application.SnakeDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.PrintNum" />
+        <item itemvalue="Application.SnakeDemo" />
+        <item itemvalue="Application.ReceiptUtil" />
         <item itemvalue="Application.ThreeThread" />
-        <item itemvalue="Application.testMain" />
+        <item itemvalue="Application.TwoThread" />
+        <item itemvalue="Application.TestCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -564,40 +848,76 @@
       <option name="presentableId" value="Default" />
       <updated>1547692201918</updated>
       <workItem from="1547692203728" duration="7960000" />
-      <workItem from="1547782973670" duration="8298000" />
+      <workItem from="1547782973670" duration="11720000" />
+      <workItem from="1548304023968" duration="6568000" />
+      <workItem from="1549802782240" duration="598000" />
+      <workItem from="1549860867194" duration="859000" />
+      <workItem from="1550026436973" duration="54000" />
+      <workItem from="1551246206922" duration="2850000" />
+      <workItem from="1551618307952" duration="599000" />
+      <workItem from="1551704493357" duration="521000" />
+      <workItem from="1551755940738" duration="72000" />
+      <workItem from="1551866964037" duration="2453000" />
+      <workItem from="1552012968543" duration="4136000" />
+      <workItem from="1552276194728" duration="538000" />
+      <workItem from="1552378907001" duration="837000" />
+      <workItem from="1552482744113" duration="180000" />
+      <workItem from="1552649993375" duration="96000" />
+      <workItem from="1553048745498" duration="175000" />
+      <workItem from="1554172431951" duration="7024000" />
+      <workItem from="1554258114861" duration="1179000" />
+      <workItem from="1554347724572" duration="2713000" />
+      <workItem from="1554604997044" duration="494000" />
+      <workItem from="1554711744975" duration="186000" />
+      <workItem from="1554776385358" duration="8020000" />
+      <workItem from="1554864174614" duration="2572000" />
+      <workItem from="1555068787440" duration="5190000" />
+      <workItem from="1555216582117" duration="9727000" />
+      <workItem from="1555312130457" duration="18985000" />
+      <workItem from="1555381917042" duration="6736000" />
+      <workItem from="1555559191884" duration="3273000" />
     </task>
+    <task id="LOCAL-00001" summary="append">
+      <created>1547810455089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547810455089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16258000" />
+    <option name="totallyTimeSpent" value="106315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="943" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32923076" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.22813238" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05025641" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2683215" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21985815" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7952314" visible="true" weight="0.2838828" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82181424" visible="true" weight="0.32600734" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.17818575" side_tool="true" visible="true" weight="0.32600734" />
+      <window_info id="Structure" order="1" sideWeight="0.20476858" side_tool="true" weight="0.23382173" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23794872" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4219858" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -606,36 +926,36 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.27589744" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32923076" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.32234433" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.23794872" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1572104" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22011834" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289941" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7952314" visible="true" weight="0.23382173" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.20476858" side_tool="true" visible="true" weight="0.23382173" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1536643" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,6 +963,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="append" />
+    <option name="LAST_COMMIT_MESSAGE" value="append" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,197 +1006,163 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstServer.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstServer.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstServer.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstServer.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace1.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace1.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace1.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>driveNumAndPositionMap.get(drive.getDriveNum())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driveNumAndPositionMap.get(drive.getDriveNum()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ParkTypeEnum.M.name()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyBeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/architecture/src/main/java/com/czg/bean/MyInstantiationAwareBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/SetThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/QueueFamily.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/MapThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/ListThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="140" column="2" lean-forward="true" selection-start-line="140" selection-start-column="2" selection-end-line="140" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/RecursiveAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/RecursiveTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="219" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/TransferQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedTransferQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/CountedCompleter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="410" column="22" selection-start-line="410" selection-start-column="22" selection-end-line="410" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107016">
-          <caret line="5927" column="23" selection-start-line="5927" selection-start-column="23" selection-end-line="5927" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/Exchanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="104" column="22" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/AliTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="962" column="41" selection-start-line="962" selection-start-column="41" selection-end-line="962" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/PrintNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="242">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -883,176 +1173,351 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pv/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pvmodel/LockConditionModel2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pvmodel/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pvmodel/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pvmodel/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/LockConditionModel1.java" />
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pv/StoreHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pv/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/pvmodel/LockConditionModel1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThreadAbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/CountWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/Has.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/MappedBiggerFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="73" column="98" selection-start-line="73" selection-start-column="68" selection-end-line="73" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/CountWordsOfArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="112" column="29" selection-start-column="2" selection-end-line="124" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/FileWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/ParkType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/Drive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/ParkApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2242">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park/ParkPlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkPlace1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-682">
+          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="1845" column="36" lean-forward="true" selection-start-line="1845" selection-start-column="36" selection-end-line="1845" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="355" column="21" selection-start-line="355" selection-start-column="21" selection-end-line="355" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/Drive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5180">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="166" column="25" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+          <folding>
+            <element signature="e#5562#5563#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="e#17535#17536#0" expanded="true" />
+            <element signature="e#17577#17578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/OneTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/park1/ParkApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ConTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26201">
+          <caret line="1441" selection-start-line="1441" selection-end-line="1441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TestCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/FirstClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ThirdServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/bio/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/io/nio/NIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/TwoThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="166" column="44" selection-start-line="166" selection-start-column="44" selection-end-line="166" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/ThreeThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/testMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/ali/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="197" column="25" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/CacheHealthChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="332" column="53" selection-start-line="332" selection-start-column="43" selection-end-line="332" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="1306" column="58" selection-start-line="1306" selection-start-column="58" selection-end-line="1306" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/CglibProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="214">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/IUserDao.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/jobinterview/Cache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/DynamicProxyApp.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/jobinterview/ReceiptUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="364">
+          <caret line="90" column="65" lean-forward="true" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/czg/proxy/CglibProxyApp.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/game/AePlayWave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="171">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/game/SnakeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="501" selection-start-line="501" selection-end-line="501" />
+        <state relative-caret-position="418">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/BaseHealthChecker.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/czg/bigdata/BigDataSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="82" lean-forward="true" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/DataBaseHealthChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/NetWorkHealthChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="24" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/countDownLatchDemo/ApplicationStartupUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/czg/juc/ConcurrentUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1062,10 +1527,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>basic:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1073,7 +1540,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1108,7 +1575,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>architecture</last-edited>
+          <last-edited>algorithm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

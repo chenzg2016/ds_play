@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: junit-platform-commons-1.4.0.jar logback-core-1.2.3.jar lo
+ gback-classic-1.2.3.jar lombok-1.16.6.jar junit-jupiter-api-5.4.0.jar
+  apiguardian-api-1.0.0.jar opentest4j-1.1.1.jar slf4j-api-1.7.21.jar
+Main-Class: com.czg.javaagent.JagentApp
+

@@ -4,7 +4,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -27,10 +26,9 @@ import java.util.concurrent.locks.ReentrantLock;
  * Thread1: 100
  *
  **/
-public class ThreeThread {
+public class ThreeThreadAbc {
 
-    private static int a = 1;
-    private static int b = 100;
+    private static volatile int a = 10;
 
     static Lock lock = new ReentrantLock();
     static Condition conditionA = lock.newCondition();
@@ -38,13 +36,17 @@ public class ThreeThread {
     static Condition conditionC = lock.newCondition();
 
     public static void main(String[] args) {
-        Thread t1 = new Thread(new AddThread("Thread1",conditionA,conditionB));
-        Thread t2 = new Thread(new AddThread("Thread2",conditionB,conditionC));
-        Thread t3 = new Thread(new AddThread("Thread3",conditionC,conditionA));
+        Thread t1 = new Thread(new AddThread("A",conditionA,conditionB));
+        Thread t2 = new Thread(new AddThread("B",conditionB,conditionC));
+        Thread t3 = new Thread(new AddThread("C",conditionC,conditionA));
 
-        t1.start();
-        t2.start();
-        t3.start();
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+
+        executor.submit(t1);
+        executor.submit(t2);
+        executor.submit(t3);
+
+        executor.shutdown();
     }
 
     static class AddThread implements Runnable{
@@ -66,11 +68,10 @@ public class ThreeThread {
         public void doTask(Condition conditionA, Condition conditionB){
             lock.lock();
             try {
-                while (a <= b) {
+                for  (int i=0; i < a; i ++) {
 
-                    System.out.println(threadName + ":" + a);
-                    a++;
-                    conditionB.signal();
+                    System.out.println(i + " :" +threadName);
+                    conditionB.signalAll();
                     conditionA.await();
                 }
 

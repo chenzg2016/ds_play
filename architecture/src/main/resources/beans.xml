@@ -19,4 +19,12 @@
           destroy-method="myDestory" scope="singleton" p:name="张三" p:address="广州"
           p:phone="1590000000" />
 
+
+    <bean id="fbHelloWorldService" class="com.czg.bean.MyFactoryBean">
+        <property name="interfaceName" value="com.czg.bean.HelloWorldService" />
+        <property name="target" ref="helloWorldService" />
+    </bean>
+    <bean id="helloWorldService" class="com.czg.bean.HelloWorldServiceImpl">
+    </bean>
+
 </beans>

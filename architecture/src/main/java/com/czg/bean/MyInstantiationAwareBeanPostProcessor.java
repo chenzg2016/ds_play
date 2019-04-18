@@ -43,8 +43,10 @@ public class MyInstantiationAwareBeanPostProcessor extends
     public PropertyValues postProcessPropertyValues(PropertyValues pvs,
                                                     PropertyDescriptor[] pds, Object bean, String beanName)
             throws BeansException {
+
         System.out
-                .println("InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法");
+                .println("InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法"+ "bean: " + bean +"beanName:" + beanName);
+
         return pvs;
     }
 }
