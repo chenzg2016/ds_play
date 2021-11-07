@@ -12,10 +12,12 @@ public class StringTest {
         String c = "world";
         String d = b + c;
         String e = new String("helloworld");
+        String f = new String("helloworld");
         System.out.println(a == d);
         System.out.println(a == e);
         System.out.println(a.equals(d));
         System.out.println(a.equals(e));
         System.out.println(d.equals(e));
+        System.out.println(e == f);
     }
 }

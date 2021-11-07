@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+  	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+  	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+        http://www.springframework.org/schema/websocket"
+       default-lazy-init="true">
+
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
+
+    <!-- velocity视图解析器 -->
+    <bean id="velocityViewResolver" class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
+        <property name="cache" value="false" />
+        <property name="prefix" value="/" />
+        <property name="suffix" value=".vm" />
+        <property name="requestContextAttribute" value="rc"/>
+        <property name="contentType" value="text/html;charset=UTF-8" />
+        <property name="toolboxConfigLocation" value="/WEB-INF/toolbox.xml" />
+        <property name="dateToolAttribute" value="dateTool"/>
+        <property name="numberToolAttribute" value="numberTool"/>
+    </bean>
+
+
+</beans>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+http://code.alibabatech.com/schema/dubbo
+http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+">
+    <!-- 开关配置 -->
+    <dubbo:consumer check="false" timeout="5000" />
+    <dubbo:reference id="byeService" interface="com.czg.dubbo.generic.ByeService" generic="true" />
+
+</beans>

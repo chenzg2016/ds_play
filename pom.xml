@@ -11,8 +11,10 @@
   <modules>
     <module>rpc</module>
     <module>algorithm</module>
-      <module>designPattern</module>
-      <module>basic</module>
+    <module>designPattern</module>
+    <module>basic</module>
+    <module>ai</module>
+      <module>distribute</module>
   </modules>
 
   <name>move</name>
@@ -24,7 +26,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+  <dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -32,9 +34,24 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-
+    <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>21.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.4</version>
+    </dependency>
   </dependencies>
-
+  </dependencyManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
