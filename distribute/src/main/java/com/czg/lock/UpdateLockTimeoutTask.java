@@ -1,6 +1,6 @@
 package com.czg.lock;
-
 import org.springframework.data.redis.core.StringRedisTemplate;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +23,7 @@ public class UpdateLockTimeoutTask implements Runnable{
     @Override
     public void run(){
         //以uuid为key，当前线程id为value保存到Redis中
-        stringRedisTemplate.opsForValue().set(uuid, Thread.currentThread().getId());
+        //stringRedisTemplate.opsForValue().set(uuid, Thread.currentThread().getId());
         //定义更新锁的过期时间
         while(true){
             stringRedisTemplate.expire(key, 30, TimeUnit.SECONDS);

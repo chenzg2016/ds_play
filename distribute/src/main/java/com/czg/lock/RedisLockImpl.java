@@ -37,7 +37,7 @@ public class RedisLockImpl implements RedisLock {
                 }
             }
             //启动新线程来执行定时任务，更新锁过期时间
-            new Thread(new UpdateLockTimeoutTask(uuid, stringRedisTemplate, key)).start();
+            //new Thread(new UpdateLockTimeoutTask(uuid, stringRedisTemplate, key)).start();
         }else{
             isLocked = true;
         }
@@ -58,8 +58,8 @@ public class RedisLockImpl implements RedisLock {
             if(count == null || --count <= 0){
                 stringRedisTemplate.delete(key);
                 //获取更新锁超时时间的线程并中断
-                long threadId = stringRedisTemplate.opsForValue().get(uuid);
-                Thread updateLockTimeoutThread = ThreadUtils.getThreadByThreadId(threadId);
+                //long threadId = stringRedisTemplate.opsForValue().get(uuid);
+                Thread updateLockTimeoutThread = ThreadUtils.getThreadByThreadId(new Long(1L));
                 if(updateLockTimeoutThread != null){
                     //中断更新锁超时时间的线程
                     updateLockTimeoutThread.interrupt();
